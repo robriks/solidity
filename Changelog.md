@@ -6,6 +6,7 @@ Language Features:
 Compiler Features:
  * EWasm: Remove EWasm backend.
  * Parser: Introduce ``pragma experimental solidity``, which will enable an experimental language mode that in particular has no stability guarantees between non-breaking releases and is not suited for production use.
+ * Yul Optimizer: Stack-to-memory mover is now enabled by default whenever possible for via IR code generation and pure Yul compilation.
 
 
 Bugfixes:
